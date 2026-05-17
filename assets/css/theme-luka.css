@@ -198,7 +198,7 @@ body.theme-luka .image.avatar img {
   width: 220px;
   height: 220px;
   border-radius: 50%;
-  object-fit: cover;
+  object-fit: contain;
   box-shadow: 0 6px 24px var(--luka-shadow);
 }
 
@@ -458,8 +458,8 @@ body.theme-luka .timeline-summary {
 
 body.theme-luka .experience-thumb {
   width: 100%;
-  max-width: 260px;
-  height: 150px;
+  max-width: 360px;
+  height: 210px;
   margin-top: 14px;
   overflow: hidden;
   border-radius: 10px;
@@ -471,7 +471,7 @@ body.theme-luka .experience-thumb img {
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
 }
 
@@ -741,8 +741,8 @@ body.theme-luka strong {
   }
 
   body.theme-luka .experience-thumb {
-    max-width: 220px;
-    height: 128px;
+    max-width: 300px;
+    height: 176px;
   }
 }
 
